@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Col, Container, Row, Image } from "react-bootstrap";
+import Title from "./components/Title";
+import "./App.css";
+import React from "react";
+import Banner from "./components/Banner";
+import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
+import WhyChoose from "./components/WhyChoose";
+import SelectedProducts from "./components/SelectedProducts";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Title color={"white"} />
+      <SelectedProducts />
+      <Banner />
+      <WhyChoose />
+
+      <Newsletter />
+
+      <Footer />
+    </>
   );
 }
 
