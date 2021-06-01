@@ -7,18 +7,20 @@ import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 import WhyChoose from "./components/WhyChoose";
 import SelectedProducts from "./components/SelectedProducts";
+import Login from "./components/Login";
 
 function App() {
   return (
     <>
-      <Title color={"white"} />
+      {/* <Title color={"white"} />
       <SelectedProducts />
       <Banner />
       <WhyChoose />
 
       <Newsletter />
 
-      <Footer />
+      <Footer /> */}
+      <Login/>
     </>
   );
 }

@@ -11,3 +11,9 @@
 .clickable:hover {
   cursor: pointer;
 }
+
+a{
+  text-decoration-line: none !important;
+  color:black !important;  
+  /* background-color: red; */
+}
