@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import WhyChoose from "./components/WhyChoose";
 import SelectedProducts from "./components/SelectedProducts";
 import Login from "./components/Login";
+import SignUp from "./components/SignUp";
+import ForgotPassword from "./components/ForgotPassword";
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       <Newsletter />
 
       <Footer /> */}
-      <Login/>
+      {/* <Login/> */}
+      {<SignUp/>}
+      {/* <ForgotPassword/> */}
     </>
   );
 }
